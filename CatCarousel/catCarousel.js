@@ -9,6 +9,3 @@ $('main').on('click','.thumbnail', function(event){
 //remove thumbnail class from the copy and make it a hero class
   $(newImage).removeClass('thumbnail').addClass('hero');
 });
-//listen for a keyboard (add a11y)
-//remove current hero
-//toggle the clicked .thumbnail to .hero class
